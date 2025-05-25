@@ -96,6 +96,40 @@ public class BuscarGoogleTest {
         Assert.assertEquals(label,"Buscar con Google");
     }
     
+    @Test
+    public void enlaceImagenesVisible() {
+        // 1. Ingresar a la pagina de Google
+        String googleUrl = "https://www.google.com";
+        driver.get(googleUrl);
+
+        // 2. Verificar que el enlace "Imágenes" está visible
+        WebElement imagenesLink = driver.findElement(By.linkText("Imágenes"));
+        Assert.assertTrue(imagenesLink.isDisplayed(), "El enlace 'Imágenes' debe estar visible");
+    }
+    
+    @Test
+    public void campoBusquedaPresenteYHabilitado() {
+        // 1. Ingresar a la pagina de Google
+        String googleUrl = "https://www.google.com";
+        driver.get(googleUrl);
+
+        // 2. Verificar que el campo de búsqueda está presente y habilitado
+        WebElement campoBusqueda = driver.findElement(By.name("q"));
+        Assert.assertTrue(campoBusqueda.isDisplayed(), "El campo de búsqueda debe estar visible");
+        Assert.assertTrue(campoBusqueda.isEnabled(), "El campo de búsqueda debe estar habilitado");
+    }
+
+    @Test
+    public void enlaceGmailVisible() {
+        // 1. Ingresar a la pagina de Google
+        String googleUrl = "https://www.google.com";
+        driver.get(googleUrl);
+
+        // 2. Verificar que el enlace "Gmail" está visible
+        WebElement gmailLink = driver.findElement(By.linkText("Gmail"));
+        Assert.assertTrue(gmailLink.isDisplayed(), "El enlace 'Gmail' debe estar visible");
+    }
+    
    
    
     

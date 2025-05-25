@@ -1,25 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results total="1" passed="1" failed="0" skipped="0">
+<testng-results total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-05-24T17:01:37Z" name="Surefire suite" finished-at="2025-05-24T17:01:44Z" duration-ms="7443">
+  <suite started-at="2025-05-25T22:07:28Z" name="Surefire suite" finished-at="2025-05-25T22:07:52Z" duration-ms="23634">
     <groups>
     </groups>
-    <test started-at="2025-05-24T17:01:37Z" name="Surefire test" finished-at="2025-05-24T17:01:44Z" duration-ms="7443">
+    <test started-at="2025-05-25T22:07:28Z" name="Surefire test" finished-at="2025-05-25T22:07:52Z" duration-ms="23634">
       <class name="BuscarGoogleTest">
-        <test-method is-config="true" signature="setDriver()[pri:0, instance:BuscarGoogleTest@71a794e5]" started-at="2025-05-24T13:01:37Z" name="setDriver" finished-at="2025-05-24T13:01:40Z" duration-ms="3200" status="PASS">
+        <test-method is-config="true" signature="setDriver()[pri:0, instance:BuscarGoogleTest@aecb35a]" started-at="2025-05-25T18:07:28Z" name="setDriver" finished-at="2025-05-25T18:07:30Z" duration-ms="1395" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setDriver -->
-        <test-method signature="paginaPrincipalGoogle()[pri:0, instance:BuscarGoogleTest@71a794e5]" started-at="2025-05-24T13:01:40Z" name="paginaPrincipalGoogle" finished-at="2025-05-24T13:01:44Z" duration-ms="3896" status="PASS">
+        <test-method is-config="true" signature="setDriver()[pri:0, instance:RegistroDZoneTest@4b9e255]" started-at="2025-05-25T18:07:30Z" name="setDriver" finished-at="2025-05-25T18:07:31Z" duration-ms="731" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method signature="campoBusquedaPresenteYHabilitado()[pri:0, instance:BuscarGoogleTest@aecb35a]" started-at="2025-05-25T18:07:31Z" name="campoBusquedaPresenteYHabilitado" finished-at="2025-05-25T18:07:32Z" duration-ms="988" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- campoBusquedaPresenteYHabilitado -->
+        <test-method signature="enlaceGmailVisible()[pri:0, instance:BuscarGoogleTest@aecb35a]" started-at="2025-05-25T18:07:32Z" name="enlaceGmailVisible" finished-at="2025-05-25T18:07:32Z" duration-ms="612" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enlaceGmailVisible -->
+        <test-method signature="enlaceImagenesVisible()[pri:0, instance:BuscarGoogleTest@aecb35a]" started-at="2025-05-25T18:07:32Z" name="enlaceImagenesVisible" finished-at="2025-05-25T18:07:33Z" duration-ms="445" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enlaceImagenesVisible -->
+        <test-method signature="paginaPrincipalGoogle()[pri:0, instance:BuscarGoogleTest@aecb35a]" started-at="2025-05-25T18:07:33Z" name="paginaPrincipalGoogle" finished-at="2025-05-25T18:07:36Z" duration-ms="3463" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- paginaPrincipalGoogle -->
-        <test-method is-config="true" signature="closeDriver()[pri:0, instance:BuscarGoogleTest@71a794e5]" started-at="2025-05-24T13:01:44Z" name="closeDriver" finished-at="2025-05-24T13:01:44Z" duration-ms="337" status="PASS">
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:BuscarGoogleTest@aecb35a]" started-at="2025-05-25T18:07:52Z" name="closeDriver" finished-at="2025-05-25T18:07:52Z" duration-ms="205" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:RegistroDZoneTest@4b9e255]" started-at="2025-05-25T18:07:52Z" name="closeDriver" finished-at="2025-05-25T18:07:52Z" duration-ms="205" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDriver -->
       </class> <!-- BuscarGoogleTest -->
+      <class name="RegistroDZoneTest">
+        <test-method signature="verificarMensajeErrorAlRegistrar()[pri:0, instance:RegistroDZoneTest@4b9e255]" started-at="2025-05-25T18:07:36Z" name="verificarMensajeErrorAlRegistrar" finished-at="2025-05-25T18:07:52Z" duration-ms="15581" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verificarMensajeErrorAlRegistrar -->
+      </class> <!-- RegistroDZoneTest -->
     </test> <!-- Surefire test -->
   </suite> <!-- Surefire suite -->
 </testng-results>
