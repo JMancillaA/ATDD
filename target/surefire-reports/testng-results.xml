@@ -1,51 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results total="5" passed="5" failed="0" skipped="0">
+<testng-results total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-05-25T22:07:28Z" name="Surefire suite" finished-at="2025-05-25T22:07:52Z" duration-ms="23634">
+  <suite started-at="2025-05-26T02:08:10Z" name="Surefire suite" finished-at="2025-05-26T02:08:27Z" duration-ms="16291">
     <groups>
     </groups>
-    <test started-at="2025-05-25T22:07:28Z" name="Surefire test" finished-at="2025-05-25T22:07:52Z" duration-ms="23634">
-      <class name="BuscarGoogleTest">
-        <test-method is-config="true" signature="setDriver()[pri:0, instance:BuscarGoogleTest@aecb35a]" started-at="2025-05-25T18:07:28Z" name="setDriver" finished-at="2025-05-25T18:07:30Z" duration-ms="1395" status="PASS">
+    <test started-at="2025-05-26T02:08:10Z" name="Surefire test" finished-at="2025-05-26T02:08:27Z" duration-ms="16291">
+      <class name="GoogleSearchResultTest">
+        <test-method is-config="true" signature="setDriver()[pri:0, instance:GoogleSearchResultTest@3444d69d]" started-at="2025-05-25T22:08:10Z" name="setDriver" finished-at="2025-05-25T22:08:14Z" duration-ms="3696" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setDriver -->
-        <test-method is-config="true" signature="setDriver()[pri:0, instance:RegistroDZoneTest@4b9e255]" started-at="2025-05-25T18:07:30Z" name="setDriver" finished-at="2025-05-25T18:07:31Z" duration-ms="731" status="PASS">
+        <test-method signature="verificarResultadosBusqueda()[pri:0, instance:GoogleSearchResultTest@3444d69d]" started-at="2025-05-25T22:08:14Z" name="verificarResultadosBusqueda" finished-at="2025-05-25T22:08:26Z" duration-ms="12115" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[No se pudieron encontrar los resultados de búsqueda: Expected condition failed: waiting for presence of element located by: By.id: rcnt (tried for 10 second(s) with 500 milliseconds interval)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: No se pudieron encontrar los resultados de búsqueda: Expected condition failed: waiting for presence of element located by: By.id: rcnt (tried for 10 second(s) with 500 milliseconds interval)
+	at org.testng.Assert.fail(Assert.java:94)
+	at GoogleSearchResultTest.verificarResultadosBusqueda(GoogleSearchResultTest.java:68)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:102)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:91)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setDriver -->
-        <test-method signature="campoBusquedaPresenteYHabilitado()[pri:0, instance:BuscarGoogleTest@aecb35a]" started-at="2025-05-25T18:07:31Z" name="campoBusquedaPresenteYHabilitado" finished-at="2025-05-25T18:07:32Z" duration-ms="988" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- campoBusquedaPresenteYHabilitado -->
-        <test-method signature="enlaceGmailVisible()[pri:0, instance:BuscarGoogleTest@aecb35a]" started-at="2025-05-25T18:07:32Z" name="enlaceGmailVisible" finished-at="2025-05-25T18:07:32Z" duration-ms="612" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- enlaceGmailVisible -->
-        <test-method signature="enlaceImagenesVisible()[pri:0, instance:BuscarGoogleTest@aecb35a]" started-at="2025-05-25T18:07:32Z" name="enlaceImagenesVisible" finished-at="2025-05-25T18:07:33Z" duration-ms="445" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- enlaceImagenesVisible -->
-        <test-method signature="paginaPrincipalGoogle()[pri:0, instance:BuscarGoogleTest@aecb35a]" started-at="2025-05-25T18:07:33Z" name="paginaPrincipalGoogle" finished-at="2025-05-25T18:07:36Z" duration-ms="3463" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- paginaPrincipalGoogle -->
-        <test-method is-config="true" signature="closeDriver()[pri:0, instance:BuscarGoogleTest@aecb35a]" started-at="2025-05-25T18:07:52Z" name="closeDriver" finished-at="2025-05-25T18:07:52Z" duration-ms="205" status="PASS">
+        </test-method> <!-- verificarResultadosBusqueda -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:GoogleSearchResultTest@3444d69d]" started-at="2025-05-25T22:08:26Z" name="closeDriver" finished-at="2025-05-25T22:08:27Z" duration-ms="462" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDriver -->
-        <test-method is-config="true" signature="closeDriver()[pri:0, instance:RegistroDZoneTest@4b9e255]" started-at="2025-05-25T18:07:52Z" name="closeDriver" finished-at="2025-05-25T18:07:52Z" duration-ms="205" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeDriver -->
-      </class> <!-- BuscarGoogleTest -->
-      <class name="RegistroDZoneTest">
-        <test-method signature="verificarMensajeErrorAlRegistrar()[pri:0, instance:RegistroDZoneTest@4b9e255]" started-at="2025-05-25T18:07:36Z" name="verificarMensajeErrorAlRegistrar" finished-at="2025-05-25T18:07:52Z" duration-ms="15581" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verificarMensajeErrorAlRegistrar -->
-      </class> <!-- RegistroDZoneTest -->
+      </class> <!-- GoogleSearchResultTest -->
     </test> <!-- Surefire test -->
   </suite> <!-- Surefire suite -->
 </testng-results>
