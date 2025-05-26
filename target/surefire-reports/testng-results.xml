@@ -2,32 +2,32 @@
 <testng-results total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-05-26T12:57:31Z" name="Surefire suite" finished-at="2025-05-26T12:57:48Z" duration-ms="16869">
+  <suite started-at="2025-05-26T13:46:09Z" name="Surefire suite" finished-at="2025-05-26T13:46:29Z" duration-ms="20301">
     <groups>
     </groups>
-    <test started-at="2025-05-26T12:57:31Z" name="Surefire test" finished-at="2025-05-26T12:57:48Z" duration-ms="16869">
+    <test started-at="2025-05-26T13:46:09Z" name="Surefire test" finished-at="2025-05-26T13:46:29Z" duration-ms="20301">
       <class name="HackerTyperTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:HackerTyperTest@1068e947]" started-at="2025-05-26T08:57:31Z" name="setUp" finished-at="2025-05-26T08:57:32Z" duration-ms="1422" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:HackerTyperTest@1068e947]" started-at="2025-05-26T09:46:09Z" name="setUp" finished-at="2025-05-26T09:46:11Z" duration-ms="2214" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="buscarSitioPorNombre()[pri:0, instance:HackerTyperTest@1068e947]" started-at="2025-05-26T08:57:32Z" name="buscarSitioPorNombre" finished-at="2025-05-26T08:57:38Z" duration-ms="5530" status="PASS">
+        <test-method signature="buscarSitioPorNombre()[pri:0, instance:HackerTyperTest@1068e947]" started-at="2025-05-26T09:46:11Z" name="buscarSitioPorNombre" finished-at="2025-05-26T09:46:17Z" duration-ms="6390" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- buscarSitioPorNombre -->
-        <test-method signature="clickEnPrimerSitioListado()[pri:0, instance:HackerTyperTest@1068e947]" started-at="2025-05-26T08:57:38Z" name="clickEnPrimerSitioListado" finished-at="2025-05-26T08:57:43Z" duration-ms="4930" status="PASS">
+        <test-method signature="clickEnPrimerSitioListado()[pri:0, instance:HackerTyperTest@1068e947]" started-at="2025-05-26T09:46:17Z" name="clickEnPrimerSitioListado" finished-at="2025-05-26T09:46:21Z" duration-ms="3751" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickEnPrimerSitioListado -->
-        <test-method signature="escribirComoHacker()[pri:0, instance:HackerTyperTest@1068e947]" started-at="2025-05-26T08:57:43Z" name="escribirComoHacker" finished-at="2025-05-26T08:57:47Z" duration-ms="3948" status="PASS">
+        <test-method signature="escribirComoHacker()[pri:0, instance:HackerTyperTest@1068e947]" started-at="2025-05-26T09:46:21Z" name="escribirComoHacker" finished-at="2025-05-26T09:46:26Z" duration-ms="4615" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- escribirComoHacker -->
-        <test-method signature="verificarTituloDeBrowse()[pri:0, instance:HackerTyperTest@1068e947]" started-at="2025-05-26T08:57:47Z" name="verificarTituloDeBrowse" finished-at="2025-05-26T08:57:48Z" duration-ms="748" status="PASS">
+        <test-method signature="verificarTituloDeBrowse()[pri:0, instance:HackerTyperTest@1068e947]" started-at="2025-05-26T09:46:26Z" name="verificarTituloDeBrowse" finished-at="2025-05-26T09:46:29Z" duration-ms="3027" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verificarTituloDeBrowse -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:HackerTyperTest@1068e947]" started-at="2025-05-26T08:57:48Z" name="tearDown" finished-at="2025-05-26T08:57:48Z" duration-ms="283" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:HackerTyperTest@1068e947]" started-at="2025-05-26T09:46:29Z" name="tearDown" finished-at="2025-05-26T09:46:29Z" duration-ms="298" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
