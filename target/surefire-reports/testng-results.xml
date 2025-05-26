@@ -2,6 +2,7 @@
 <testng-results total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
+<<<<<<< Updated upstream
   <suite started-at="2025-05-26T20:54:43Z" name="Surefire suite" finished-at="2025-05-26T20:54:51Z" duration-ms="8150">
     <groups>
     </groups>
@@ -16,6 +17,22 @@
           </reporter-output>
         </test-method> <!-- pruebaFormularioContacto -->
         <test-method is-config="true" signature="tearDown()[pri:0, instance:contactos@543e710e]" started-at="2025-05-26T16:54:51Z" name="tearDown" finished-at="2025-05-26T16:54:51Z" duration-ms="290" status="PASS">
+=======
+  <suite started-at="2025-05-26T20:02:31Z" name="Surefire suite" finished-at="2025-05-26T20:02:40Z" duration-ms="9809">
+    <groups>
+    </groups>
+    <test started-at="2025-05-26T20:02:31Z" name="Surefire test" finished-at="2025-05-26T20:02:40Z" duration-ms="9809">
+      <class name="BotonWhatsappTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:BotonWhatsappTest@3444d69d]" started-at="2025-05-26T16:02:31Z" name="setUp" finished-at="2025-05-26T16:02:36Z" duration-ms="5073" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verificarBotonWhatsappRedirecciona()[pri:0, instance:BotonWhatsappTest@3444d69d]" started-at="2025-05-26T16:02:36Z" name="verificarBotonWhatsappRedirecciona" finished-at="2025-05-26T16:02:40Z" duration-ms="4330" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verificarBotonWhatsappRedirecciona -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:BotonWhatsappTest@3444d69d]" started-at="2025-05-26T16:02:40Z" name="tearDown" finished-at="2025-05-26T16:02:40Z" duration-ms="394" status="PASS">
+>>>>>>> Stashed changes
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
