@@ -42,25 +42,39 @@ public class GoogleSearchResultTest {
         String googleUrl = "https://www.google.com";
         driver.get(googleUrl);
         
+        // Crear espera explícita
+        WebDriverWait wait = new WebDriverWait(driver, 20);
+        
+        // Manejar el diálogo de consentimiento de cookies si aparece
+        try {
+            WebElement consent = wait.until(
+                ExpectedConditions.elementToBeClickable(By.xpath("//button//*[contains(text(), 'Accept all')]"))
+            );
+            consent.click();
+        } catch (Exception e) {
+            // El diálogo puede no aparecer, continuamos
+        }
+        
         // Ejecución
-        WebElement searchBox = driver.findElement(By.name("q"));
+        WebElement searchBox = wait.until(
+            ExpectedConditions.elementToBeClickable(By.name("q"))
+        );
         searchBox.sendKeys("Gatos bebes");
         searchBox.submit();
         
-        // Agregar espera explícita
-        WebDriverWait wait = new WebDriverWait(driver, 10);
-        
         // Verificación
         try {
-            // Esperar a que el contenedor de resultados esté presente
+            // Esperar y verificar resultados usando múltiples selectores
             WebElement results = wait.until(
-                ExpectedConditions.presenceOfElementLocated(By.id("rcnt"))
+                ExpectedConditions.presenceOfElementLocated(By.id("search"))
             );
             Assert.assertTrue(results.isDisplayed(), "Los resultados de búsqueda deben ser visibles");
             
-            // Buscar el primer resultado usando un selector más específico
+            // Buscar el primer resultado por un selector más genérico
             WebElement firstResult = wait.until(
-                ExpectedConditions.presenceOfElementLocated(By.cssSelector("#search .g"))
+                ExpectedConditions.presenceOfElementLocated(
+                    By.cssSelector("#search div[data-hveid]")
+                )
             );
             Assert.assertTrue(firstResult.isDisplayed(), "Debe existir al menos un resultado de búsqueda");
             
