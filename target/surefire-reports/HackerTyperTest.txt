@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
-Test set: GoogleSearchResultTest
+Test set: HackerTyperTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 36.55 s -- in GoogleSearchResultTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.533 s -- in HackerTyperTest
