@@ -6,7 +6,8 @@
       <class name="HackerTyperTest">
         <methods>
           <include name="setUp"/>
-          <include name="escribirComoHacker"/>
+          <include name="clickEnPrimerSitioListado"/>
+          <include name="tearDown"/>
         </methods>
       </class> <!-- HackerTyperTest -->
     </classes>
