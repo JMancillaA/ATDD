@@ -59,7 +59,7 @@ public class GoogleSearchResultTest {
         WebElement searchBox = wait.until(
             ExpectedConditions.elementToBeClickable(By.name("q"))
         );
-        searchBox.sendKeys("Gatos bebes");
+        searchBox.sendKeys("Gatos negros bebes");
         searchBox.submit();
         
         // Verificación
