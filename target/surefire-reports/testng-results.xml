@@ -2,20 +2,20 @@
 <testng-results total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-05-26T17:51:06Z" name="Surefire suite" finished-at="2025-05-26T17:51:13Z" duration-ms="6800">
+  <suite started-at="2025-05-26T20:54:43Z" name="Surefire suite" finished-at="2025-05-26T20:54:51Z" duration-ms="8150">
     <groups>
     </groups>
-    <test started-at="2025-05-26T17:51:06Z" name="Surefire test" finished-at="2025-05-26T17:51:13Z" duration-ms="6800">
+    <test started-at="2025-05-26T20:54:43Z" name="Surefire test" finished-at="2025-05-26T20:54:51Z" duration-ms="8150">
       <class name="contactos">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:contactos@543e710e]" started-at="2025-05-26T13:51:06Z" name="setUp" finished-at="2025-05-26T13:51:08Z" duration-ms="1373" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:contactos@543e710e]" started-at="2025-05-26T16:54:43Z" name="setUp" finished-at="2025-05-26T16:54:46Z" duration-ms="2991" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="pruebaFormularioContacto()[pri:0, instance:contactos@543e710e]" started-at="2025-05-26T13:51:08Z" name="pruebaFormularioContacto" finished-at="2025-05-26T13:51:13Z" duration-ms="5110" status="PASS">
+        <test-method signature="pruebaFormularioContacto()[pri:0, instance:contactos@543e710e]" started-at="2025-05-26T16:54:46Z" name="pruebaFormularioContacto" finished-at="2025-05-26T16:54:51Z" duration-ms="4861" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pruebaFormularioContacto -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:contactos@543e710e]" started-at="2025-05-26T13:51:13Z" name="tearDown" finished-at="2025-05-26T13:51:13Z" duration-ms="309" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:contactos@543e710e]" started-at="2025-05-26T16:54:51Z" name="tearDown" finished-at="2025-05-26T16:54:51Z" duration-ms="290" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
